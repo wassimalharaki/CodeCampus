@@ -1,0 +1,29 @@
+.es-parent {
+    height: 100%;
+}
+
+.es-body {
+    height: calc(100% - 80px);
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.es-title {
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.es-create-btn {
+    width: 200px;
+    height: 45px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: bold;
+}

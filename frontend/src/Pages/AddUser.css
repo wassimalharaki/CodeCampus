@@ -1,0 +1,55 @@
+.au-parent {
+    height: 100%;
+}
+
+.au-body {
+    height: calc(100% - 80px);
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.au-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.au-txt-input {
+    padding-left: 10px;
+    font-size: 20px;
+    width: 400px;
+}
+
+.au-title {
+    margin-top: 175px;
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.au-input {
+    margin-right: 50px;
+    margin-bottom: 0px;
+    height: 50px;
+    width: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+    vertical-align: center;
+}
+
+.au-input-role {
+    width: 150px;
+    margin-right: 250px;
+}
+
+.au-create-btn {
+    width: 150px;
+    font-size: 24px;
+    margin-top: 20px;
+}

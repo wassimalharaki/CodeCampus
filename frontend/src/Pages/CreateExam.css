@@ -1,0 +1,140 @@
+.ce-parent {
+    height: 100%;
+}
+
+.ce-body {
+    height: calc(100% - 80px);
+    width: 100%;
+    padding-top: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.ce-title {
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.ce-inner-body {
+    height: 100%;
+    width: 80%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ce-left {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.ce-middle {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.ce-right {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.ce-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.ce-p-input {
+    margin-bottom: 0px;
+    height: 50px;
+    width: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+    vertical-align: center;
+}
+
+.ce-txt-input {
+    padding-left: 10px;
+    font-size: 20px;
+    width: 350px;
+}
+
+.ce-p-dt-input {
+    margin-bottom: 0px;
+    height: 50px;
+    width: 200px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+    vertical-align: center;
+}
+
+.ce-dt-input {
+    padding-left: 10px;
+    font-size: 20px;
+    width: 250px;
+}
+
+.ce-btn-create {
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.ce-pid-p {
+    width: 150px;
+}
+
+.ce-pid-input {
+    width: 300px;
+}
+
+.ce-std-add {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ce-prob-add {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ce-std-rem {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ce-prob-rem {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ce-std-cont {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ce-prob-cont {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

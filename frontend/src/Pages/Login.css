@@ -1,0 +1,45 @@
+.login-parent {
+    height: 100%;
+}
+
+.login-body {
+    height: calc(100% - 80px);
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-title {
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.input-email, .input-password {
+    background-color: rgb(226, 231, 236);
+}
+
+.mb-3 {
+    width: 100%;
+}
+
+.lg-btn-submit {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.lg-title {
+    font-size: 18px;
+}

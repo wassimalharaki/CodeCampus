@@ -1,0 +1,12 @@
+.tc-left {
+    margin-right: 50px;
+}
+
+.txt-tc {
+    width: 250px;
+    height: 60px;
+    padding: 10px 12px;
+    border-radius: 4px;
+    font-size: 20px;
+    resize: none;
+}

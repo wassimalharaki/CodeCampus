@@ -1,0 +1,32 @@
+.rs-parent {
+    height: 100%;
+}
+
+.rs-body {
+    height: calc(100% - 80px);
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.rs-title {
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.rs-result {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.rs-view-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,46 @@
+.home-parent {
+    height: 100%;
+}
+
+.exec-btn {
+    position: absolute;
+    width: 120px;
+    left: calc(50% - 60px);
+    top: 100px;
+    height: 45px;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 50%;
+    z-index: 1;
+}
+
+.home-body {
+    height: calc(100% - 80px);
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.IO {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.txt-io {
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+    overflow: auto;
+    outline: none;
+    box-shadow: none;
+    resize: none;
+    border: white 1px solid;
+    
+    background-color: rgb(30, 30, 30);
+    height: 50%;
+    width: 100%;
+}

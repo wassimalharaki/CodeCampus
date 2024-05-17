@@ -1,0 +1,140 @@
+.ue-parent {
+    height: 100%;
+}
+
+.ue-body {
+    height: calc(100% - 80px);
+    width: 100%;
+    padding-top: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.ue-title {
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.ue-inner-body {
+    height: 100%;
+    width: 80%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ue-left {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.ue-middle {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.ue-right {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.ue-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.ue-p-input {
+    margin-bottom: 0px;
+    height: 50px;
+    width: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+    vertical-align: center;
+}
+
+.ue-txt-input {
+    padding-left: 10px;
+    font-size: 20px;
+    width: 350px;
+}
+
+.ue-p-dt-input {
+    margin-bottom: 0px;
+    height: 50px;
+    width: 200px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+    vertical-align: center;
+}
+
+.ue-dt-input {
+    padding-left: 10px;
+    font-size: 20px;
+    width: 250px;
+}
+
+.ue-btn-create {
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.ue-pid-p {
+    width: 150px;
+}
+
+.ue-pid-input {
+    width: 300px;
+}
+
+.ue-std-add {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ue-prob-add {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ue-std-rem {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ue-prob-rem {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ue-std-cont {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ue-prob-cont {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

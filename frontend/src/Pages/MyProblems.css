@@ -1,0 +1,49 @@
+.mp-parent {
+    height: 100%;
+}
+
+.mp-body {
+    height: calc(100% - 80px);
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.mp-change-container {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    margin-bottom: 30px;
+    width: 450px;
+}
+
+.mp-create-btn {
+    left: calc(50% - 60px);
+    width: 200px;
+    height: 45px;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 137%;
+    z-index: 1;
+}
+
+.mp-my-btn {
+    left: calc(50% - 60px);
+    width: 200px;
+    height: 45px;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 137%;
+    z-index: 1;
+}
+
+.mp-title {
+    font-size: 44px;
+    font-weight: bold;
+}
